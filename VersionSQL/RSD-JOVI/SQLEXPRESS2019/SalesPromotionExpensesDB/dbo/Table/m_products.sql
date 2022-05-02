@@ -4,6 +4,5 @@ SET ANSI_NULLS ON
 SET QUOTED_IDENTIFIER ON
 CREATE TABLE [dbo].[m_products](
 	[id] [bigint] NOT NULL,
-	[name] [nchar](150) NOT NULL,
-	[price] [decimal](18, 0) NOT NULL
+	[name] [nchar](150) NOT NULL
 ) ON [PRIMARY]
